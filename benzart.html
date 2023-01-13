@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bizerte</title>
+    <link rel="stylesheet" href="benzart.css"> 
+    <script src="benzart.js">
+    </script>
+    <!--  icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- -->
+</head>
+<body bgcolor="white">
+    <nav class="navbar">
+        <img src="logo3.jpg" alt="">
+        <ul>
+            <li><a href="#home"><ion-icon name="home-outline"></ion-icon> Accueil</a></li>
+            
+            <li><a href="#photo"><ion-icon name="camera-outline"></ion-icon> Images</a></li>
+            <li><a href="#video"><ion-icon name="videocam-outline"></ion-icon> Videos</a></li>
+            <li><a href="#link"><ion-icon name="arrow-forward-outline"></ion-icon>  Liens</a></li>
+            <li><a href="#Explore"><ion-icon name="arrow-forward-outline"></ion-icon> Explorer  </a></li>
+            <li><a href="#contact"> <ion-icon name="mail-outline"></ion-icon>  Nous contacter </a></li>
+        </ul>
+               <button onclick="xd()" class="btn"><ion-icon name="moon-outline"></ion-icon> Arrière plan </button>
+    </nav>
+
+    <main id="home">
+        <div class="mainbr">
+            <h1 class="heading"> Pic coif </h1>
+            <button class="btn" onclick="f()" ><ion-icon name="locate-outline"></ion-icon> Carte géographique</a></button>
+        </div>
+    </main>
+    
+    <main id="photo">
+        <h1 class="heading"><ion-icon name="camera-outline"></ion-icon> Images</h1>
+        <div class="gallery">
+            <img src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+            <img src="3.jpg" alt="">
+            <img src="4.jpg" alt="">
+            <img src="5.jpg" alt="">
+            <img src=".jpg" alt="">
+        </div>
+    </main>
+    <br>
+    
+    <main id="link">
+        <h1 class="heading"><ion-icon name="arrow-forward-outline"></ion-icon>  Liens</h1>
+        <div class="row">
+            <div class="box">
+                <img src="h.jpg" alt="">
+                <h1 class="heading">Histoire</h1>
+                <p>
+                   Pour explorer l'histoire du Bizert cliquer ici .
+                </p>
+                <br>
+                <br>
+                <br>
+                <button class="btm" onclick="a()" >  <ion-icon name="link-outline"></ion-icon>  Lien</button>
+            </div>
+            
+            <div class="box">
+                <img src="i.jpg" alt="">
+                <h1 class="heading">Infrastructures</h1>
+                <p>
+                    Pour voir les Infrastructures du Bizert cliquer ici .
+                </p>
+                <br>
+                <br>
+                <br>
+                <button class="btm" onclick="b()"><ion-icon name="link-outline"></ion-icon> Lien</button>
+        </div>
+        <div class="box">
+            <img src="d.jpg" alt="">
+            <h1 class="heading">Démographie</h1>
+            <p>
+               Pour voir le Démographie du Bizert cliquer ici . 
+            </p>
+            <br>
+            <br>
+            <br>
+            <button class="btm" onclick="c()"><ion-icon name="link-outline"></ion-icon> Lien</button>
+    </main>
+    <main id="contact">
+        <h1 class="heading"> Nous contacter</h1>
+        <form name="form" class="form" action="mailto:dhiabouhali04@gmail.com" method="post">
+            <i class="fa fa-user icon"></i>  <input type="text" name="name"  class="input" placeholder="Enter Your Name">
+            <i class="fa fa-envelope icon"></i> <input type="email" name="email" class="input" placeholder="Enter your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" id="send" value="SEND" onclick="g()">
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>OWNERS:</p> ©Ahmedsillini 
+    </footer>
+</body>
+</html>
